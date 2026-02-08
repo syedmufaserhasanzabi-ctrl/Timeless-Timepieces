@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timeless Timepiece Watch Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- ---Section One--- -->
+    <section class="section-one section" id="Home">
+
+        <!-- Navigation -->
+        <nav>
+            <div class="logo">Timeless Timepiece</div>
+            <ul class="navlinks" id="navlinks">
+                <li>
+                    <a href="#Home" class="active">Home</a>
+                </li>
+                <li>
+                    <a href="#Product">Product</a>
+                </li>
+                <li>
+                    <a href="#Arrivals">Arrivals</a>
+                </li>
+                <li>
+                    <a href="#Offers">Offers</a>
+                </li>
+                <li>
+                    <a href="#Collection">Collection</a>
+                </li>
+           </ul>
+
+            <!-- Hamburger Menu -->
+            <div class="hamburger" id="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </nav>
+
+        <!-- Header -->
+        <header>
+            <div class="image-container">
+                <img src="img-1.png" alt="Blue Omega Watch" class="header-image">
+            </div>
+
+            <div class="content">
+                <h1 class="header-heading">Pure Luxury</h1>
+                <h2 class="product-name">Blue Omega TT</h2>
+                <p class="header-pricing">₹1,000</p>
+                <div class="features">
+                    <div class="feature-item">
+                        <i class="fas fa-clock"></i>
+                        <span>Swiss Movement</span>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-shield-alt"></i>
+                        <span>5 Year Warranty</span>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-water"></i>
+                        <span>Water Resistant</span>
+                    </div>
+                </div>
+                <div class="btn-container">
+                    <button class="primary-btn">Discover</button>
+                    <button class="secondary-btn">Add to Cart</button>
+                </div>
+            </div>
+        </header>
+
+    </section>
+
+   <!-- ---Section Two--- -->
+    <section class="section-two section" id="Product">
+    
+        <div class="section-two-container">
+            <div class="section-two-inner-container">
+                <div class="content">
+                    <h1 class="section-two-heading">Quartz Casio</h1>
+                    <p class="section-two-para">Casio is a renowned brand known for its innovative design and reliability in the watch industry. They offer a diverse range of quartz watches that blend functionality with style, catering to various tastes and occasions.</p>
+                    <p class="section-two-pricing">₹1,000</p>
+                    <button class="section-two-btn">Order Now</button>
+                </div>
+                <div class="image-container">
+                    <img src="img-2.png" class="section-two-image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ---Section Three--- -->
+    <section class="section-three section" id="Arrivals">
+        <h1 class="section-heading">New Arivals</h1>
+        <div class="card-container">
+           <div class="card">
+               <img src="img-3.png" class="card-image">
+               <h2>Tissot</h2>
+               <p class="card-pricing">₹999</p>
+               <button class="secondary-btn" data-id="tissot-arrival">Add to Cart</button>
+           </div>
+
+            <div class="card">
+               <img src="img-4.png" class="card-image">
+               <h2>Klassc</h2>
+               <p class="card-pricing">₹999</p>
+               <button class="secondary-btn" data-id="klassc-arrival">Add to Cart</button>
+           </div>
+
+            <div class="card">
+               <img src="img-5.png" class="card-image">
+               <h2>Citizen</h2>
+               <p class="card-pricing">₹999</p>
+               <button class="secondary-btn" data-id="citizen-arrival">Add to Cart</button>
+           </div>
+        </div>
+
+    </section> 
+
+    <!-- ---Section Four--- -->
+     <section class="section-four section" id="Offers">
+        <div class="section-four-container">
+            <div class="content">
+                <h1 class="section-four-offer">50% off</h1>
+                <h1 class="section-four-heading">Special Collection</h1>
+                <button class="section-four-btn">Shop Now</button>
+            </div>
+        </div>
+     </section>
+
+     <!-- ---Section Five--- -->
+      <section class="section-five section" id="Collection">
+        <h1 class="section-heading">Collection</h1>
+        <div class="grid-card-container">
+            <div class="grid-card" data-collection="Rado">
+                <button class="add-to-cart-btn" data-id="rado">Add to Cart</button>
+                <h3>Rado</h3>
+            </div>
+            <div class="grid-card" data-collection="Geneve">
+                <button class="add-to-cart-btn" data-id="geneve">Add to Cart</button>
+                <h3>Geneve</h3>
+            </div>
+            <div class="grid-card" data-collection="Tissot">
+                <button class="add-to-cart-btn" data-id="tissot">Add to Cart</button>
+                <h3>Tissot</h3>
+            </div>
+            <div class="grid-card" data-collection="Cartier">
+                <button class="add-to-cart-btn" data-id="cartier">Add to Cart</button>
+                <h3>Cartier</h3>
+            </div>
+            <div class="grid-card" data-collection="Omega">
+                <button class="add-to-cart-btn" data-id="omega">Add to Cart</button>
+                <h3>Omega</h3>
+            </div>
+            <div class="grid-card" data-collection="Fitron">
+                <button class="add-to-cart-btn" data-id="fitron">Add to Cart</button>
+                <h3>Fitron</h3>
+            </div>
+        </div>
+      </section>
+
+      <!-- ---Cart Section--- -->
+      <section class="cart-section">
+        <h1 class="section-heading">Your Cart</h1>
+        <div id="cart-items" class="cart-items">
+            <!-- Items will be dynamically added here -->
+        </div>
+        <div class="cart-total">
+            <p>Total: ₹<span id="total-price">0</span></p>
+            <button class="checkout-btn">Checkout</button>
+        </div>
+      </section>
+
+        <!-- Contact Section -->
+    <section class="contact-sponsor">
+        <h2>Ready to Partner?</h2>
+        <p>Contact our sponsorship team to discuss any futher details.</p>
+        <div class="contact-info">
+            <div class="contact-item">
+                <i class="fas fa-envelope"></i>
+                <span>syedmufaserhasanzabi@gmail.com</span>
+            </div>
+            <div class="contact-item">
+                <i class="fas fa-phone"></i>
+                <span>(+91) 939-121-7848</span>
+            </div>
+            <div class="contact-item">
+                <i class="fas fa-map-marker-alt"></i>
+                <span>Hyderabad, India</span>
+            </div>
+        </div>
+    </section>
+
+      <!-- ---footer--- -->
+       <footer>
+        <p class="footer-txt">Designed by SyedMufaser</p>
+       </footer>
+
+
+
+
+
+
+
+
+
+
+
+    <!-- JavaScript -->
+    <script src="main.js"></script>
+</body>
+</html>
